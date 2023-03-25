@@ -24,7 +24,7 @@ export function ProductGallery({media, className}) {
           image: {
             // @ts-ignore
             ...med.image,
-            altText: med.alt || 'Product image',
+            altText: med.alt || 'Product image potato',
           },
         };
 

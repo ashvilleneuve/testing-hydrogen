@@ -4,16 +4,9 @@ export default defineConfig({
   shopify: {
     defaultCountryCode: 'US',
     defaultLanguageCode: 'EN',
-    storeDomain:
-      // @ts-ignore
-      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'hydrogen-preview.myshopify.com',
-    storefrontToken:
-      // @ts-ignore
-      Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
-      '3b580e70970c4528da70c98e097c2fa0',
-    privateStorefrontToken:
-      // @ts-ignore
-      Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
+    storeDomain: 'catswilltellyou.myshopify.com',
+    storefrontToken: 'd620199d63155a3504f88d5d31d6f916',
+    privateStorefrontToken: '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',
     storefrontApiVersion: '2022-07',
     // @ts-ignore
     storefrontId: Oxygen?.env?.PUBLIC_STOREFRONT_ID,
